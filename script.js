@@ -37,7 +37,7 @@ function removeAdmin() {
   const filteredEmployees = arr.filter((employee) => {
     return employee.profession !== "admin";
   });
-  console.log("Employees after removing admins:", filteredEmployees);
+  console.log( filteredEmployees);
 }
 
 function concatenateArray() {
